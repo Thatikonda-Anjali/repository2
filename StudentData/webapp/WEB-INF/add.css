@@ -1,0 +1,63 @@
+ <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: sky;
+            padding: 40px;
+            color: green;
+        }
+
+        h2 {
+            color: red;
+            text-align: center;
+        }
+
+        .top-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: black;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .top-link:hover {
+            background-color: #2980b9;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: pink;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #dddddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: red;
+        }
+
+        td a {
+            color: yellow;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        td a:hover {
+            text-decoration: underline;
+        }
+
+        .actions a.delete {
+            color: #e74c3c;
+        }
+
+        .actions a.delete:hover {
+            text-decoration: underline;
+        }
+    </style>
